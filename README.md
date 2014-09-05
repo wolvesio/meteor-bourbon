@@ -25,7 +25,7 @@ meteor add wolves:bourbon
 ##Usage
 1. Simply import Bourbon at the top of your sass file
 ```scss
-@import "packages/wolves:meteor-bourbon/bourbon";
+@import "packages/wolves:bourbon/bourbon";
 ```
 
 ## Credits
