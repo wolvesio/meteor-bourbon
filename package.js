@@ -1,7 +1,7 @@
 Package.describe({
-  summary: " \* Fill me in! *\ ",
-  version: "1.0.0",
-  git: " \* Fill me in! *\ "
+  summary: "A simple and lightweight mixin library for Sass. Built by Thoughtbot",
+  version: "0.1.0",
+  git: "https://github.com/wolvesio/meteor-bourbon"
 });
 
 Package.onUse(function(api) {
