@@ -18,7 +18,8 @@ Package.onTest(function(api) {
     'tinytest',
     'test-helpers',
     'templating',
-    'iron:router'
+    'iron:router',
+    'fourseven:scss'
   ]);
-  api.addFiles(['tests/route.coffee', 'tests/client.css', 'tests/client.html', 'tests/tests.coffee'], 'client');
+  api.addFiles(['tests/route.coffee', 'tests/client.sass', 'tests/client.html', 'tests/tests.coffee'], 'client');
 });
