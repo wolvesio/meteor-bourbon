@@ -13,7 +13,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use([
-    'underscore',
     'coffeescript',
     'tinytest',
     'test-helpers',
