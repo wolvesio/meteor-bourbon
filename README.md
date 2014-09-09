@@ -1,3 +1,5 @@
+**Notice: Currently Alpha - Actively Finalizing Issues**
+
 [![Bourbon Sass Mixin Library](http://bourbon.io/images/shared/bourbon-logo.png)](http://bourbon.io)
 
 ***
