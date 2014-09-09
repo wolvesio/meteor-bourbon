@@ -10,6 +10,8 @@ Tinytest.add 'import/include test', (test) ->
 Tinytest.add 'function test', (test) ->
   div = document.getElementById("container").getElementsByClassName("bourbon-import-builtin-box-sizing")[0]
   test.equal(getStyleProperty(div, "margin"), "22.6520004272461px", "Expect golden-ratio() function to convert golden-ratio(14px, 1) to 22.652px")
+  # Removing purely for cosmetic reasons once done using
+  div.remove()
 
 Tinytest.add 'variable test', (test) ->
   body = document.body
@@ -20,3 +22,5 @@ Tinytest.add 'addon test', (test) ->
   console.log(getStyleProperty(div, "background-image"))
   test.equal(getStyleProperty(div, "background-image"), "linear-gradient(rgb(66, 148, 240), rgb(7, 121, 243))", "Expect 'button' addon to set default bourbon btn bkg styling")
   test.equal(getStyleProperty(div, "border-color"), "rgb(7, 114, 228)", "Expect 'button' addon to set default bourbon btn border styling")
+  # Removing purely for cosmetic reasons once done using
+  div.remove()
