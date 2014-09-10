@@ -1,7 +1,7 @@
 Package.describe({
   name: "wolves:bourbon",
   summary: "Bourbon is a simple and lightweight mixin library for Sass.",
-  version: "0.3.2",
+  version: "0.3.3",
   git: "https://github.com/wolvesio/meteor-bourbon"
 });
 
@@ -10,7 +10,9 @@ Package.onUse(function(api) {
   api.use('fourseven:scss@0.9.5', 'client');
   api.addFiles([
     '_bourbon.scss'
-  ], 'client');
+  ], 'server', {
+    isAsset: true
+  });
 });
 
 Package.onTest(function(api) {
