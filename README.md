@@ -34,11 +34,16 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
 
 ##Usage
 
-1. Simply import Bourbon at the top of your sass file:
+1. Simply import Bourbon at the top of your sass file (*Currently working on configruing a way to provide a far less verbose import command*):
 
   ```scss
-  @import "packages/wolves:bourbon/bourbon";
+  @import ".meteor/local/build/programs/server/assets/packages/wolves:bourbon/bourbon"
   ```
+
+---
+
+**Important Note** (*working on addressing this*)
+Because Meteor will attempt to compile you app's local stylesheets prior to copying the server assets directory, the first time you run the app after installing the package your app will complain that it is unable to find it. For the moment this can be resolved by either stopping and restarting the app, at which point you should no longer get this error message, our running `touch` on you local stylesheet thats attempting to access the package, triggering a reload.
 
 ## Credits
 
