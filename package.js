@@ -1,6 +1,6 @@
 Package.describe({
   name: "wolves:bourbon",
-  summary: "Bourbon is a simple and lightweight mixin library for Sass.",
+  summary: "Meteor 0.9.x - Bourbon is a simple and lightweight mixin library for Sass.",
   version: "0.4.3",
   git: "https://github.com/wolvesio/meteor-bourbon"
 });
