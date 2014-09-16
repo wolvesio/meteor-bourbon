@@ -37,7 +37,7 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
 1. Simply import Bourbon at the top of your sass file (*Currently working on configruing a way to provide a far less verbose import command*):
 
   ```scss
-  @import ".meteor/local/build/programs/server/assets/packages/wolves:bourbon/bourbon"
+  @import ".meteor/local/build/programs/server/assets/packages/wolves_bourbon/bourbon"
   ```
 
 ---
