@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0');
-  api.use('fourseven:scss');
+  api.use('fourseven:scss@0.9.5');
   api.addFiles([
     '_bourbon.scss',
     "settings/_prefixer.scss",

@@ -1,12 +1,12 @@
 {
   "dependencies": [
     [
-      "meteor",
-      "1.0.3"
+      "fourseven:scss",
+      "0.9.5"
     ],
     [
-      "stevezhu:sass",
-      "1.2.2"
+      "meteor",
+      "1.0.3"
     ],
     [
       "underscore",
