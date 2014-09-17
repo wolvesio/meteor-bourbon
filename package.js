@@ -1,13 +1,18 @@
 Package.describe({
   name: "wolves:bourbon",
   summary: "Meteor 0.9.x - Bourbon is a simple and lightweight mixin library for Sass.",
-  version: "0.6.0",
+  version: "0.6.1",
   git: "https://github.com/wolvesio/meteor-bourbon"
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0');
   api.use('stevezhu:sass@1.2.2');
+  api.addFiles([
+    '_bourbon.scss'
+  ], 'server', {
+    isAsset: true
+  });
 
   api.addFiles('sass_include_paths.json', 'server');
 });
