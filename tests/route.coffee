@@ -1,3 +1,2 @@
 Router.map ->
-  @route 'test_helper_home',
-    path: '/'
+  @route 'test_helper_home', { path: '/' }

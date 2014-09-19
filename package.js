@@ -81,15 +81,3 @@ Package.onUse(function(api) {
     isAsset: true
   });
 });
-
-Package.onTest(function(api) {
-  api.use([
-    'coffeescript',
-    'tinytest',
-    'test-helpers',
-    'templating',
-    'iron:router',
-    'fourseven:scss'
-  ]);
-  api.addFiles(['tests/route.coffee', 'tests/client.sass', 'tests/client.html', 'tests/tests.coffee'], 'client');
-});
