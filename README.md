@@ -47,7 +47,7 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
     "includePaths": [
       ".meteor/local/build/programs/server/assets/packages/wolves_bourbon",
       ".meteor/local/build/programs/server/assets/packages/wolves_bitters",
-      ".meteor/local/build/programs/server/assets/packages/wolves_neat",
+      ".meteor/local/build/programs/server/assets/packages/wolves_neat"
     ]
   }
   ```
