@@ -1,6 +1,4 @@
-[![Bourbon Sass Mixin Library](http://bourbon.io/images/shared/bourbon-logo.png)](http://bourbon.io)
-
-***
+[![Bourbon](http://images.thoughtbot.com/bourbon/bourbon-logo.svg)](http://bourbon.io)
 
 ## A [Meteor](http://meteor.com) package of [Thoughtbot's](http://thoughtbot.com), Bourbon.
 
@@ -60,7 +58,7 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
   @import "bourbon/bourbon";
   ```
   `*.sass`
-  ```scss
+  ```sass
   @import bourbon/bourbon
   ```
 
