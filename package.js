@@ -1,15 +1,15 @@
 Package.describe({
   name: "wolves:bourbon",
-  summary: "Meteor 0.9.3+ - Bourbon is a simple and lightweight mixin library for Sass.",
-  version: "2.0.0",
+  summary: "Meteor 1.2.0+ - Bourbon is a simple and lightweight mixin library for Sass.",
+  version: "3.0.0",
   git: "https://github.com/wolvesio/meteor-bourbon"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.3');
-  api.use('fourseven:scss@3.1.1');
-  api.addFiles('scss.json', 'server');
-  api.addFiles([
+  api.versionsFrom('METEOR@1.2');
+  api.use('fourseven:scss@3.2.0');
+  api.addAssets('scss.json', 'server');
+  api.addAssets([
     "bourbon/settings/_prefixer.scss",
     "bourbon/settings/_px-to-em.scss",
     "bourbon/settings/_asset-pipeline.scss",
@@ -93,5 +93,5 @@ Package.onUse(function(api) {
     // Soon to be deprecated Mixins
     "bourbon/_bourbon-deprecated-upcoming.scss",
     'bourbon/_bourbon.scss'
-  ], 'server', {isAsset: true});
+  ], 'server');
 });
