@@ -7,9 +7,9 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.2');
-  api.use('fourseven:scss@3.2.0');
-  api.addAssets('scss.json', 'server');
-  api.addAssets([
+  api.use('fourseven:scss@3.4.0-beta1');
+
+  api.addFiles([
     "bourbon/settings/_prefixer.scss",
     "bourbon/settings/_px-to-em.scss",
     "bourbon/settings/_asset-pipeline.scss",
@@ -93,5 +93,5 @@ Package.onUse(function(api) {
     // Soon to be deprecated Mixins
     "bourbon/_bourbon-deprecated-upcoming.scss",
     'bourbon/_bourbon.scss'
-  ], 'server');
+  ], 'client', {isImport:true});
 });
