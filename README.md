@@ -14,7 +14,7 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
 
 #### [Changelog](https://github.com/thoughtbot/bourbon/releases)
 
-##Install
+## Install
 
 1. Make sure to add sass support to your meteor app:
 
@@ -28,7 +28,7 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
   meteor add wolves:bourbon
   ```
 
-##Usage
+## Usage
 
 1. Simply import Bourbon at the top of your sass file
 
