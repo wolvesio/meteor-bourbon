@@ -2,7 +2,7 @@
   "dependencies": [
     [
       "fourseven:scss",
-      "3.2.0"
+      "3.4.0-beta1"
     ],
     [
       "meteor",

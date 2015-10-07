@@ -28,44 +28,20 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
   meteor add wolves:bourbon
   ```
 
-3. Create a `scss.json` configuration file in the app's root with:
-
-  ```json
-  {
-    "includePaths": [
-      ".meteor/local/build/programs/server/assets/packages/wolves_bourbon"
-    ]
-  }
-  ```
-
-  **Example of scss.json using full bourbon suite**
-  *(This would be used after installing the `wolves:bitters` & `wolves:neat` packages along with bourbon)*
-  ```json
-  {
-    "includePaths": [
-      ".meteor/local/build/programs/server/assets/packages/wolves_bourbon",
-      ".meteor/local/build/programs/server/assets/packages/wolves_bitters",
-      ".meteor/local/build/programs/server/assets/packages/wolves_neat"
-    ]
-  }
-  ```
 ##Usage
 
 1. Simply import Bourbon at the top of your sass file
 
   `*.scss`
   ```scss
-  @import "bourbon/bourbon";
+  @import "{wolves:bourbon}/bourbon";
   ```
   `*.sass`
   ```sass
-  @import bourbon/bourbon
+  @import {wolves:bourbon}/bourbon
   ```
 
 ---
-
-## Important Note
-Because Meteor will attempt to compile you app's local stylesheets prior to copying the server assets directory, the first time you run the app after installing the package your app will complain that it is unable to find it. For the moment this can be resolved by either stopping and restarting the app, at which point you should no longer get this error message, our running `touch` on you local stylesheet thats attempting to access the package, triggering a reload.
 
 ## Credits
 
