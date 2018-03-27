@@ -1,3 +1,9 @@
+## This package is no longer maintained since the progression of Meteor to the use of NPM allows for thoughtbot's main package to be leveraged
+
+[https://github.com/thoughtbot/bourbon#installation](https://github.com/thoughtbot/bourbon#installation)
+
+---
+
 [![Bourbon](http://images.thoughtbot.com/bourbon/bourbon-logo.svg)](http://bourbon.io)
 
 ## A [Meteor](http://meteor.com) package of [Thoughtbot's](http://thoughtbot.com), Bourbon.
@@ -16,30 +22,35 @@ The mixins contain vendor specific prefixes for all CSS3 properties for support 
 
 ## Install
 
-1. Make sure to add sass support to your meteor app:
+1.  Make sure to add sass support to your meteor app:
 
-  ```bash
-  meteor add fourseven:scss
-  ```
 
-2. From within your Meteor app's directory:
+```bash
+meteor add fourseven:scss
+```
 
-  ```bash
-  meteor add wolves:bourbon
-  ```
+2.  From within your Meteor app's directory:
+
+
+```bash
+meteor add wolves:bourbon
+```
 
 ## Usage
 
-1. Simply import Bourbon at the top of your sass file
+1.  Simply import Bourbon at the top of your sass file
 
-  `*.scss`
-  ```scss
-  @import "{wolves:bourbon}/bourbon";
-  ```
-  `*.sass`
-  ```sass
-  @import {wolves:bourbon}/bourbon
-  ```
+`*.scss`
+
+```scss
+@import "{wolves:bourbon}/bourbon";
+```
+
+`*.sass`
+
+```sass
+@import {wolves:bourbon}/bourbon
+```
 
 ---
 
